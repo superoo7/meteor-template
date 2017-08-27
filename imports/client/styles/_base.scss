@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=VT323');
+
+// Reset
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%; //10px
+}
+
+body {
+  font-family: 'VT323', monospace;
+  font-size: $base-font-size;
+}
+
+h1 {
+  font-weight: 300;
+  margin-bottom: $space;
+  font-size: 8.0rem;
+}
+
+h2 {
+  font-weight: 300;
+  margin-bottom: $space;
+  font-size: 4.0rem;
+}
+
+p {
+  margin-bottom: $space;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+input[type=text], input[type=email], input[type=password] {
+  border: solid 1px $input-border;
+  font-size: $base-font-size;
+  margin-bottom: $space;
+  padding: 1rem;
+}
